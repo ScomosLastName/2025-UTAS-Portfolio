@@ -1,0 +1,38 @@
+This algorithim is designed to draw the initials SM using the python turtle library. The first part of the algorithim is to draw the S. The second part of the algorithim us to draw the M. The algorithim uses semicircles to draw the curves at the top and bottom of the S.
+
+Draw The S
+
+penup()
+left(90)
+forward(30)
+left(90)
+forward(50)
+right(90)
+pendown()
+circle(50, 180, 20)
+left(40)
+forward(150)
+penup()
+right(40)
+right(90)
+forward(100)
+left(90)
+pendown()
+circle(50, 180, 20)
+
+Draw The M
+
+penup()
+right(180)
+forward(50)
+left(90)
+forward(20)
+left(90)
+pendown()
+forward(211)
+right(150)
+forward(106)
+left(120)
+forward(106)
+right(150)
+forward(211)
